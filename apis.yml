@@ -1,9 +1,28 @@
 aid: scalearc-ignitetech
 name: ScaleArc (IgniteTech)
-description: 'ScaleArc (IgniteTech) is a company surfaced as a portfolio company of bain-capital-ventures
-  and added to the API Evangelist network as a stub for enrichment. Sector: ai-infrastructure. This profile
-  is a lead awaiting the enrichment pipeline.'
+description: 'ScaleArc is database load balancing software that delivers continuous
+  availability and high performance for SQL Server and MySQL databases. It sits transparently
+  between applications and databases to automate failover, split and balance read/write
+  traffic, pool connections, and cache queries with no application code changes, supporting
+  on-premise, cloud, and database-as-a-service deployments such as Amazon RDS and Azure
+  SQL. Originally an independent product, ScaleArc is now owned and supported by IgniteTech
+  (part of ESW Capital Group) and offered through its enterprise software library. It
+  was surfaced as a portfolio company of bain-capital-ventures. There is no public developer
+  portal, API reference, SDK, or downloadable spec surface for ScaleArc today; access,
+  licensing, and support are handled directly through IgniteTech.'
 url: https://raw.githubusercontent.com/api-evangelist/scalearc-ignitetech/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://ignitetech.ai/wp-content/uploads/2025/06/scaleArt-logo1.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -12,10 +31,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Ai Infrastructure
+- Database
+- Load Balancing
+- SQL Server
+- MySQL
+- High Availability
+- Database Management
+- Connection Pooling
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +49,16 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/scalearc-ignitetech-domain-security.yml
 - type: Website
-  url: https://www.devgraph.com/scalearc/
+  url: https://ignitetech.ai/software-library/scalearc/
+- type: Support
+  url: https://ignitetech.ai/get-support/
+- type: HelpCenter
+  url: https://scalearc-devgraph.kayako.com/
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
