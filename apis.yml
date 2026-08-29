@@ -11,6 +11,17 @@ description: 'ScaleArc is database load balancing software that delivers continu
   portal, API reference, SDK, or downloadable spec surface for ScaleArc today; access,
   licensing, and support are handled directly through IgniteTech.'
 url: https://raw.githubusercontent.com/api-evangelist/scalearc-ignitetech/refs/heads/main/apis.yml
+deliveryModel:
+  model: unknown
+  open_source: false
+  commercial: false
+  callable_host: false
+  label: Delivery model not determined — needs a product licence on record
+  confidence: low
+  source:
+  - none
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
